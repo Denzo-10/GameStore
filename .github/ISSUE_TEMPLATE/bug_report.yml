@@ -50,7 +50,7 @@ body:
     id:  description-2-1-1
     attributes:
       label: Приоритет
-      description: Выберете приоритет проблемы:
+      description: Выберете приоритет проблемы
       options:
       - label: Немедленная
       - label: Высокий
@@ -61,7 +61,7 @@ body:
     id:  description-2-1-2
     attributes:
       label: Серьезность
-      description: Выберете серьезность проблемы:
+      description: Выберете серьезность проблемы
       options:
       - label: Критическая
       - label: Высокий
