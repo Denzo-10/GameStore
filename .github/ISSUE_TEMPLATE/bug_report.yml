@@ -1,6 +1,6 @@
 name: Отчет об ошибке
 description: Сообщите об ошибке.
-title: "[Ошибка]: "
+title: "[Название ошибки]: "
 labels: ["Номер"]
 body:
   - type: textarea
