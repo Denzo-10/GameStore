@@ -27,10 +27,6 @@ body:
        - другое...
     validations:
       required: true
-  - type: markdown
-    attributes:
-      value: |
-        Отобразить текст с разметкой markdown
   - type: checkboxes
     id:  description-1-1-3
     attributes:
