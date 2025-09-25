@@ -16,7 +16,7 @@ body:
     attributes:
       label: Ожиадемый результат
       description: Описание ожидаемого результата
-      placeholder: подсказка
+      placeholder: текст
     validations:
       required: true #поле обязательно для заполнения
   - type: textarea
@@ -24,7 +24,7 @@ body:
     attributes:
       label: Фактический результат
       description: Описание фактического результата
-      placeholder: подсказка
+      placeholder: текст
     validations:
       required: true #поле обязательно для заполнения
   - type: textarea
@@ -32,7 +32,7 @@ body:
     attributes:
       label: Скрин/Доп материалы
       description: Доп материалы
-      placeholder: подсказка
+      placeholder: скрин
     validations:
       required: false #поле обязательно для заполнения    
   - type: dropdown
