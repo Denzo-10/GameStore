@@ -34,8 +34,9 @@ body:
       description: Выберете 1 или несколько флажков
       options:
       - label: флажок 1
+      required: true #флажок обязателен или нет
       - label: флажок 2
       - label: флажок 3
       - label: флажок 4
       - label: флажок 5
-        required: true #флажок обязателен или нет
+       
