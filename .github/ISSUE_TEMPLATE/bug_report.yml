@@ -4,7 +4,7 @@ title: "[Ошибка]: "
 labels: ["bug"]
 body:
   - type: textarea
-    id: description
+    id: description-3-1-2
     attributes:
       label: Описание деффекта
       description: Подробное описание деффекта
@@ -12,7 +12,7 @@ body:
     validations:
       required: true #поле обязательно для заполнения
   - type: dropdown
-    id: options
+    id: description-1-2-2
     attributes:
       label: подпись поля
       description: описание
@@ -26,7 +26,7 @@ body:
       value: |
         Отобразить текст с разметкой markdown
   - type: checkboxes
-    id:  label
+    id:  description-1-1-3
     attributes:
       label: подпись
       description: описание
