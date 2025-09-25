@@ -23,8 +23,8 @@ body:
       required: true
   - type: markdown
     attributes:
-    value: |
-      Отобразить текст с разметкой markdown
+      value: |
+        Отобразить текст с разметкой markdown
   - type: checkboxes
     id: идентификатор поля ввода
     attributes:
