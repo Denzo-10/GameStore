@@ -12,6 +12,14 @@ body:
     validations:
       required: true #поле обязательно для заполнения
   - type: textarea
+    id: description-3-2-1
+    attributes:
+      label: Шаги воспроизведения
+      description: Подробное описание шагов
+      placeholder: Что надо сделать, чтобы выскакивала ошибка
+    validations:
+      required: true #поле обязательно для заполнения
+  - type: textarea
     id: description-3-1-2
     attributes:
       label: Ожиадемый результат
@@ -42,7 +50,7 @@ body:
       description: Выберете среду
       options:
        - Uniti
-       - PyCharm
+       - Браузерная игра
        - Android Studio
     validations:
       required: true
