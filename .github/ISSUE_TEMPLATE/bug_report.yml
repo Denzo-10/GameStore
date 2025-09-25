@@ -1,7 +1,7 @@
 name: Отчет об ошибке
 description: Сообщите об ошибке.
 title: "[Ошибка]: "
-labels: ["bug"]
+labels: ["Номер"]
 body:
   - type: textarea
     id: description-3-1-2
@@ -14,11 +14,17 @@ body:
   - type: dropdown
     id: description-1-2-2
     attributes:
-      label: подпись поля
-      description: описание
+      label: В какой игре вышла ошибка
+      description: Выберете название игры
       options:
-       - список
-       - опций
+       - Cyberpunk 2077
+       - The Witcher 3
+       - Dark Souls III
+       - Red Dead Redemption 2
+       - Doom Eternal
+       - Control
+       - Elden Ring
+       - другое...
     validations:
       required: true
   - type: markdown
