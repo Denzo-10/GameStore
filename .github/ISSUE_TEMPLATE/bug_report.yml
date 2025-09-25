@@ -1,0 +1,35 @@
+name: Отчет об ошибке
+description: Сообщите об ошибке.
+title: "[Ошибка]: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Описание деффекта
+      description: Подробное описание деффекта
+      placeholder: подсказка
+    validations:
+      required: true #поле обязательно для заполнения
+  - type: dropdown
+    id: options
+    attributes:
+      label: подпись поля
+      description: описание
+      options:
+       - список
+       - опций
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+    value: |
+      Отобразить текст с разметкой markdown
+  - type: checkboxes
+    id: идентификатор поля ввода
+    attributes:
+      label: подпись
+      description: описание
+      options:
+      - label: флажок 1
+        required: true #флажок обязателен или нет
